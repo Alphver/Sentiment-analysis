@@ -24,23 +24,8 @@ This project in run on the base of following package:
 which means these package need to be import to your python environment, otherwise it will not work.
 
 How to run:
-1. Import the project in this structure:
--Readme.txt
--part2.py
--opinion-lexicon-English
-    -negative-words.txt
-    -positive-words.txt
--IMDb
-    README.txt
-    -train
-        imdb_train_pos.txt
-        imdb_train_neg.txt
-    -test
-        imdb_test_pos.txt
-        imdb_test_neg.txt
-    -dev
-        imdb_dev_pos.txt
-        imdb_dev_neg.txt
+1. Import the project in the structure as above.
+
 2. In python command line or any linux or mac terminal application, use command "python part2.py" in the project path.
 Or you can import the file in any ide and run, it's the same anyway.
 3. wait for around 10 mins and you will get the result of classification report on test set.
